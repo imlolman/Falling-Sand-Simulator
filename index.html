@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/js/p5.min.js"></script>
+    <script src="https://imlolman.github.io/js/controller.js"></script>
+    <style>
+        body {
+            cursor: move;
+            margin: 0;
+            background-color: #202124;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #flushButton {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="canvasContainer">
+
+    </div>
+    <img src="assets/img/flush.png" alt="" id="flushButton" height="200px" onclick="flushIt()">
+</body>
+<script src="assets/js/app.js"></script>
+
+</html>
